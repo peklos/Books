@@ -70,15 +70,21 @@ h2.underline {
 .navbar-toggler {
     margin-bottom: 20px;
     margin-left: 10px;
+    color: black;
 }
+
+.navbar-toggler-icon {
+    filter: invert(100%); /* Делает иконку черной */
+  }
 
 .navbar-toggler {
     margin: 0 auto 20px auto;
     transition: all 0.3s ease-in-out;
 }
 
+
 .navbar-toggler:not(.collapsed) {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 .navbar-toggler.mx-auto {
