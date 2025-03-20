@@ -156,3 +156,7 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.logo img{
+    filter: invert(100%);
+}
