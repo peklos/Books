@@ -74,8 +74,8 @@ h2.underline {
 }
 
 .navbar-toggler-icon {
-    filter: invert(100%); /* Делает иконку черной */
-  }
+  filter: invert(100%); /* Делает иконку черной */
+}
 
 .navbar-toggler {
     margin: 0 auto 20px auto;
