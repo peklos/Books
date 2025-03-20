@@ -7,7 +7,7 @@ html {
 body {
     background: linear-gradient(270deg, #0d1b2a, #3b1b5a, #0d1b2a);
     background-size: 600% 600%;
-    animation: gradientAnimation 20s ease infinite;
+    animation: gradientAnimation 25s ease infinite;
     color: white;
 }
 @keyframes gradientAnimation {
@@ -135,4 +135,8 @@ h2.underline {
 
 .textP p{
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.logo img{
+    filter: invert(100%);
 }
